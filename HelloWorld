@@ -1,0 +1,18 @@
+
+/**
+ * @author      Tamir Shmueli tamirs2702@gmail.com
+ * @version     1.6                
+ * @since       1.2         
+ */
+
+public class HelloWorld {
+     /**
+    *  the program prtins "HI" 5 times to the screen. 
+    * @param args command line arguments.
+    */
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) { //for loop
+            System.out.println("Hi");
+        }
+    }
+}
